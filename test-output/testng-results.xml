@@ -1,23 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="0" failed="0" skipped="10">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-12T11:41:12 IST" name="Nishant" finished-at="2024-02-12T11:42:56 IST" duration-ms="103927">
+  <suite started-at="2024-02-12T12:19:18 IST" name="Nishant" finished-at="2024-02-12T12:19:19 IST" duration-ms="778">
     <groups>
     </groups>
-    <test started-at="2024-02-12T11:41:12 IST" name="myTest" finished-at="2024-02-12T11:42:56 IST" duration-ms="103927">
+    <test started-at="2024-02-12T12:19:18 IST" name="myTest" finished-at="2024-02-12T12:19:19 IST" duration-ms="778">
       <class name="testCases.TC_003">
-        <test-method signature="verifyLoginBtn()[pri:9, instance:testCases.TC_003@639c2c1d]" started-at="2024-02-12T11:42:44 IST" name="verifyLoginBtn" finished-at="2024-02-12T11:42:44 IST" duration-ms="481" status="PASS">
+        <test-method signature="verifyLoginBtn()[pri:9, instance:testCases.TC_003@65fb9ffc]" started-at="2024-02-12T12:19:19 IST" name="verifyLoginBtn" finished-at="2024-02-12T12:19:19 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problems: 
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+at testBase.BaseClass.setup(BaseClass.java:64)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginBtn -->
-        <test-method signature="test_verifyLogin()[pri:10, instance:testCases.TC_003@639c2c1d]" started-at="2024-02-12T11:42:45 IST" name="test_verifyLogin" finished-at="2024-02-12T11:42:55 IST" duration-ms="9884" status="PASS">
+        <test-method signature="test_verifyLogin()[pri:10, instance:testCases.TC_003@65fb9ffc]" started-at="2024-02-12T12:19:19 IST" name="test_verifyLogin" finished-at="2024-02-12T12:19:19 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problems: 
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+at testBase.BaseClass.setup(BaseClass.java:64)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_verifyLogin -->
       </class> <!-- testCases.TC_003 -->
       <class name="testCases.TC_001">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001@59474f18]" started-at="2024-02-12T11:41:14 IST" name="setup" finished-at="2024-02-12T11:41:34 IST" duration-ms="20609" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001@4218d6a3]" started-at="2024-02-12T12:19:19 IST" name="setup" finished-at="2024-02-12T12:19:19 IST" duration-ms="31" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -30,44 +110,404 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problems: 
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+at testBase.BaseClass.setup(BaseClass.java:64)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_titleValidation()[pri:1, instance:testCases.TC_001@59474f18]" started-at="2024-02-12T11:41:34 IST" name="test_titleValidation" finished-at="2024-02-12T11:41:36 IST" duration-ms="2055" status="PASS">
+        <test-method signature="test_titleValidation()[pri:1, instance:testCases.TC_001@4218d6a3]" started-at="2024-02-12T12:19:19 IST" name="test_titleValidation" finished-at="2024-02-12T12:19:19 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problems: 
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+at testBase.BaseClass.setup(BaseClass.java:64)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_titleValidation -->
-        <test-method signature="clickUpcomingBikes()[pri:2, instance:testCases.TC_001@59474f18]" started-at="2024-02-12T11:41:37 IST" name="clickUpcomingBikes" finished-at="2024-02-12T11:41:51 IST" duration-ms="13799" status="PASS">
+        <test-method signature="clickUpcomingBikes()[pri:2, instance:testCases.TC_001@4218d6a3]" started-at="2024-02-12T12:19:19 IST" name="clickUpcomingBikes" finished-at="2024-02-12T12:19:19 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problems: 
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+at testBase.BaseClass.setup(BaseClass.java:64)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickUpcomingBikes -->
-        <test-method signature="manufacturerVisbleTest()[pri:3, instance:testCases.TC_001@59474f18]" started-at="2024-02-12T11:41:52 IST" name="manufacturerVisbleTest" finished-at="2024-02-12T11:41:52 IST" duration-ms="407" status="PASS">
+        <test-method signature="manufacturerVisbleTest()[pri:3, instance:testCases.TC_001@4218d6a3]" started-at="2024-02-12T12:19:19 IST" name="manufacturerVisbleTest" finished-at="2024-02-12T12:19:19 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problems: 
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+at testBase.BaseClass.setup(BaseClass.java:64)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- manufacturerVisbleTest -->
-        <test-method signature="setBikeModelHonda()[pri:4, instance:testCases.TC_001@59474f18]" started-at="2024-02-12T11:41:53 IST" name="setBikeModelHonda" finished-at="2024-02-12T11:41:56 IST" duration-ms="3673" status="PASS">
+        <test-method signature="setBikeModelHonda()[pri:4, instance:testCases.TC_001@4218d6a3]" started-at="2024-02-12T12:19:19 IST" name="setBikeModelHonda" finished-at="2024-02-12T12:19:19 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problems: 
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+at testBase.BaseClass.setup(BaseClass.java:64)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBikeModelHonda -->
-        <test-method signature="hondaVisibleTest()[pri:5, instance:testCases.TC_001@59474f18]" started-at="2024-02-12T11:41:57 IST" name="hondaVisibleTest" finished-at="2024-02-12T11:41:57 IST" duration-ms="84" status="PASS">
+        <test-method signature="hondaVisibleTest()[pri:5, instance:testCases.TC_001@4218d6a3]" started-at="2024-02-12T12:19:19 IST" name="hondaVisibleTest" finished-at="2024-02-12T12:19:19 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problems: 
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+at testBase.BaseClass.setup(BaseClass.java:64)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hondaVisibleTest -->
-        <test-method signature="printBikesDetails()[pri:6, instance:testCases.TC_001@59474f18]" started-at="2024-02-12T11:41:57 IST" name="printBikesDetails" finished-at="2024-02-12T11:42:14 IST" duration-ms="16450" status="PASS">
+        <test-method signature="printBikesDetails()[pri:6, instance:testCases.TC_001@4218d6a3]" started-at="2024-02-12T12:19:19 IST" name="printBikesDetails" finished-at="2024-02-12T12:19:19 IST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problems: 
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+at testBase.BaseClass.setup(BaseClass.java:64)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printBikesDetails -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_001@59474f18]" started-at="2024-02-12T11:42:55 IST" name="teardown" finished-at="2024-02-12T11:42:56 IST" duration-ms="1459" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_001@4218d6a3]" started-at="2024-02-12T12:19:19 IST" name="teardown" finished-at="2024-02-12T12:19:19 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC_001 -->
       <class name="testCases.TC_002">
-        <test-method signature="verifyUsedCarsPage()[pri:7, instance:testCases.TC_002@515c6049]" started-at="2024-02-12T11:42:14 IST" name="verifyUsedCarsPage" finished-at="2024-02-12T11:42:31 IST" duration-ms="16477" status="PASS">
+        <test-method signature="verifyUsedCarsPage()[pri:7, instance:testCases.TC_002@59474f18]" started-at="2024-02-12T12:19:19 IST" name="verifyUsedCarsPage" finished-at="2024-02-12T12:19:19 IST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problems: 
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+at testBase.BaseClass.setup(BaseClass.java:64)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUsedCarsPage -->
-        <test-method signature="printPopularModels()[pri:8, instance:testCases.TC_002@515c6049]" started-at="2024-02-12T11:42:31 IST" name="printPopularModels" finished-at="2024-02-12T11:42:42 IST" duration-ms="10435" status="PASS">
+        <test-method signature="printPopularModels()[pri:8, instance:testCases.TC_002@59474f18]" started-at="2024-02-12T12:19:19 IST" name="printPopularModels" finished-at="2024-02-12T12:19:19 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problems: 
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
+
+at testBase.BaseClass.setup(BaseClass.java:64)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printPopularModels -->
