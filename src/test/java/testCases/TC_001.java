@@ -67,7 +67,7 @@ public class TC_001 extends BaseClass{
 			et.setCellData("Bikes", i , 1, e.getValue());
 			i++;
 		}
-		List<String> launch_dates = np.print_launch_dates();
+		List<String> launch_dates = np.get_launchDates();
 		
 		for (int j=0;j<launch_dates.size();j++) {
 			et.setCellData("Bikes", j , 2, launch_dates.get(j));

@@ -23,6 +23,9 @@ public class NewBikesPage extends BasePage{
 	@FindBy(xpath="//li/div/div[3]")
 	List<WebElement> allBikeDetails;
 	
+	List<String> launch_dates = new ArrayList<>();
+
+	
 	//Action Methods
 	public void click_allBikes_btn() {
 		js.executeScript("arguments[0].scrollIntoView();", viewMoreBikes);
@@ -38,13 +41,14 @@ public class NewBikesPage extends BasePage{
 			String[] parts = priceString.split("\\s");
 		
 			if (parts.length <=2 && parts[1].equals("79,000")) {
+				update_launch_dates(ele);
 				map.put(ele.findElement(By.tagName("strong")).getText(),(float) 0.79);				
 				
 			} 
 			else if (parts.length >= 2) {
 				float price = Float.parseFloat(parts[1].trim());
 				if (price <= 4.00) {
-					
+					update_launch_dates(ele);
 					map.put(ele.findElement(By.tagName("strong")).getText(),price);
 				}
 			} 
@@ -61,15 +65,15 @@ public class NewBikesPage extends BasePage{
 		return map;
 	}
 
-	public List<String> print_launch_dates() {
-		List<String> launch_dates = new ArrayList<>();
-		for (WebElement ele: allBikeDetails) {
-			launch_dates.add(ele.findElement(By.xpath("//div[2]")).getText());
-		}
-		return launch_dates;
+	public void update_launch_dates(WebElement ele) {
+		String string = ele.findElement(By.cssSelector("div.clr-try")).getText();
+		String parts = string.split(":")[1];
+		launch_dates.add(parts);
 	}
 		
-	
+	public List<String> get_launchDates() {
+		return launch_dates;
+	}
 	
 	
 }
