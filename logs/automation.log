@@ -1,0 +1,8 @@
+11:24:14.388 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_001_test_titleValidation  *****
+11:24:16.148 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_001_searchHondaBikes  *****
+11:24:26.655 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Found Upcoming Bikes
+11:24:32.247 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Searched for Honda Bikes
+11:41:34.786 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_001_test_titleValidation  *****
+11:41:37.649 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_001_searchHondaBikes  *****
+11:41:51.442 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Found Upcoming Bikes
+11:41:56.786 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Searched for Honda Bikes
