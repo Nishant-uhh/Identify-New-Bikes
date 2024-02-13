@@ -8,26 +8,6 @@
   </listeners>
   <test thread-count="5" name="myTest(failed)">
     <classes>
-      <class name="testCases.TC_003">
-        <methods>
-          <include name="teardown"/>
-          <include name="verifyLoginBtn"/>
-          <include name="setup"/>
-          <include name="test_verifyLogin"/>
-        </methods>
-      </class> <!-- testCases.TC_003 -->
-      <class name="testCases.TC_001">
-        <methods>
-          <include name="teardown"/>
-          <include name="printBikesDetails"/>
-          <include name="clickUpcomingBikes"/>
-          <include name="test_titleValidation"/>
-          <include name="manufacturerVisbleTest"/>
-          <include name="setBikeModelHonda"/>
-          <include name="hondaVisibleTest"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_001 -->
       <class name="testCases.TC_002">
         <methods>
           <include name="teardown"/>

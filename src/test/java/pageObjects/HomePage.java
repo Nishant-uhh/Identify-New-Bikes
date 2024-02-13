@@ -38,6 +38,7 @@ public class HomePage extends BasePage{
 	public String titleValidation() throws IOException {
 		Screenshots ss = new Screenshots(driver);
 		title = driver.getTitle();
+		System.out.println(title);
 		ss.ScreenShot("HomePage");
 		return title;
 	}

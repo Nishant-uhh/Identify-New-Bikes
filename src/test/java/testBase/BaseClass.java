@@ -33,7 +33,7 @@ public class BaseClass {
 	public static Properties prop;
 	public static ExcelUtility et;
 	
-	@BeforeTest
+	@BeforeTest(groups= {"sanity","regression","master"})
 	@Parameters({"os","browser"})
 	public void setup(String os, String br) throws Exception {
 	
@@ -92,7 +92,7 @@ public class BaseClass {
 	}
 	
 	
-	@AfterTest
+	@AfterTest(groups= {"sanity","regression","master"})
 	public void teardown() {
 		driver.quit();
 	}

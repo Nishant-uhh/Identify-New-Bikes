@@ -1,22 +1,16 @@
-11:24:14.388 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_001_test_titleValidation  *****
-11:24:16.148 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_001_searchHondaBikes  *****
-11:24:26.655 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Found Upcoming Bikes
-11:24:32.247 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Searched for Honda Bikes
-11:41:34.786 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_001_test_titleValidation  *****
-11:41:37.649 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_001_searchHondaBikes  *****
-11:41:51.442 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Found Upcoming Bikes
-11:41:56.786 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Searched for Honda Bikes
-12:20:45.147 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_001_test_titleValidation  *****
-12:20:46.381 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_001_searchHondaBikes  *****
-12:20:49.213 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Found Upcoming Bikes
-12:20:57.855 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Searched for Honda Bikes
-17:33:19.385 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_001_test_titleValidation  *****
-17:33:20.397 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_001_searchHondaBikes  *****
-17:35:07.888 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_001_test_titleValidation  *****
-17:35:10.384 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_001_searchHondaBikes  *****
-17:35:20.756 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Found Upcoming Bikes
-17:35:26.443 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Searched for Honda Bikes
-17:53:25.411 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_001_test_titleValidation  *****
-17:53:28.030 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_001_searchHondaBikes  *****
-17:53:32.199 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Found Upcoming Bikes
-17:53:37.324 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Searched for Honda Bikes
+12:54:33.343 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_002_printPopularModels  *****
+12:54:33.357 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Retrieving popular models & writing in Excel
+12:54:33.992 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - clicking all models 
+12:54:41.296 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** finished TC_002_printPopularModels  *****
+12:54:42.700 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_003_verifyLoginBtn  *****
+12:54:42.707 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Verfying the Login is enabled 
+12:54:42.940 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** finished TC_003_verifyLoginBtn  *****
+12:54:43.354 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_003_test_verifyLogin  *****
+12:54:45.157 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Validating the error message
+12:54:48.600 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** finished TC_003_test_verifyLogin  *****
+12:59:19.220 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_003_verifyLoginBtn  *****
+12:59:19.297 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Verfying the Login is enabled 
+12:59:19.510 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** finished TC_003_verifyLoginBtn  *****
+12:59:20.073 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_003_test_verifyLogin  *****
+12:59:21.857 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Validating the error message
+12:59:26.360 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** finished TC_003_test_verifyLogin  *****

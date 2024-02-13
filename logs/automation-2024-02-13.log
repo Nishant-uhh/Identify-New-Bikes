@@ -1,0 +1,37 @@
+12:40:38.271 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** finished TC_002_visibilityChennai  *****
+12:40:38.543 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_002_printPopularModels  *****
+12:40:38.544 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Retrieving popular models & writing in Excel
+12:40:53.604 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - clicking all models 
+12:44:09.475 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_003_verifyLoginBtn  *****
+12:44:09.592 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Verfying the Login is enabled 
+12:44:09.834 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** finished TC_003_verifyLoginBtn  *****
+12:44:10.646 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_003_test_verifyLogin  *****
+12:44:12.781 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Validating the error message
+12:44:17.038 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** finished TC_003_test_verifyLogin  *****
+12:52:42.152 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_001_test_titleValidation  *****
+12:52:42.229 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Validating home title of page
+12:52:43.395 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** finished TC_001_test_titleValidation  *****
+12:52:44.143 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_001_clickUpcomingBikes *****
+12:52:44.144 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Navigating to Upcoming Bikes
+12:53:18.052 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** finished TC_001_clickUpcomingBikes  *****
+12:53:18.518 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_001_manufacturerVisbleTest *****
+12:53:18.520 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Verifying manufacturer button
+12:53:18.652 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** finished TC_001_manufacturerVisbleTest  *****
+12:53:18.916 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_001_setBikeModelHonda *****
+12:53:18.916 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Searching for Honda Bikes
+12:53:51.403 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Validating the Welcome message
+12:53:51.465 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** finished TC_001_setBikeModelHonda *****
+12:53:51.793 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_001_hondaVisibleTest *****
+12:53:51.794 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Verfying the Honda is enabled 
+12:53:51.847 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** finished TC_001_hondaVisibleTest *****
+12:53:52.091 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_001_printBikesDetails *****
+12:53:52.101 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Clicking view more button
+12:53:52.231 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - writing the bike details in Excel sheet
+12:53:58.727 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** finished TC_001_printBikesDetails *****
+12:53:59.078 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_002_verifyUsedCarsPage  *****
+12:54:27.097 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Navigating to Used Cars section
+12:54:32.811 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Validating the Welcome message
+12:54:32.853 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** finished TC_002_verifyUsedCarsPage  *****
+12:54:33.067 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_002_visibilityChennai  *****
+12:54:33.068 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Verifying chennai visibility
+12:54:33.103 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** finished TC_002_visibilityChennai  *****

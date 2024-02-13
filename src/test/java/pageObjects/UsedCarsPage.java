@@ -41,6 +41,20 @@ public class UsedCarsPage extends BasePage{
 		js.executeScript("arguments[0].click();", chennai);
 	}
 	
+	public void verifyChennaiVisibility() {
+		try {
+//			reportInfo("verifying Honda is present in manufacture");
+			boolean elementPresent = verifyElementIsEnabled(chennai);
+			if (elementPresent == true)
+				System.out.println("Honda is present");
+			else
+				System.out.println("Honda is not present");
+		}
+		catch(Exception e) {
+//			reportFail(e.getMessage());
+		}
+	}
+	
 	public void clickModels() throws Exception {
 
 		for(WebElement ele: checkboxes) {
