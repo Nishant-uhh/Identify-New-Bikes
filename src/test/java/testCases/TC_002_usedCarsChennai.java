@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import pageObjects.UsedCarsPage;
 import testBase.BaseClass;
 
-public class TC_002 extends BaseClass{
+public class TC_002_usedCarsChennai extends BaseClass{
 	UsedCarsPage uc;
 	@Test(priority =7,groups= {"regression","master"})
 	public void verifyUsedCarsPage() {

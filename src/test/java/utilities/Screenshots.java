@@ -20,7 +20,7 @@ public class Screenshots extends BasePage{
 	public String ScreenShot(String path) throws IOException {
 		String p = System.getProperty("user.dir")+"\\screenShots\\";
 		p+=path+".png";
-		TakesScreenshot ts = (TakesScreenshot)driver;
+		TakesScreenshot ts = (TakesScreenshot)driver; //type casting
 		File src = ts.getScreenshotAs(OutputType.FILE);
 		File trg = new File(p);
 		FileUtils.copyFile(src, trg);

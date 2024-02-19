@@ -11,9 +11,9 @@
 	<test thread-count = "5" name = "myTest">
 	
 		<classes>
-			<class name = "testCases.TC_001"/>
-			<class name = "testCases.TC_002"/>	
-			<class name = "testCases.TC_003"/>
+			<class name = "testCases.TC_001_getNewHondaBikes"/>
+			<class name = "testCases.TC_002_usedCarsChennai"/>	
+			<class name = "testCases.TC_003_invalidLogin"/>
 		</classes>
 	
 	</test>

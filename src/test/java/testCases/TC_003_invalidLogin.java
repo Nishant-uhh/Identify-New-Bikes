@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import pageObjects.LoginPage;
 import testBase.BaseClass;
 
-public class TC_003 extends BaseClass{
+public class TC_003_invalidLogin extends BaseClass{
 	LoginPage lp ;
 	
 	@Test(priority = 10,groups= {"sanity","regression","master"})

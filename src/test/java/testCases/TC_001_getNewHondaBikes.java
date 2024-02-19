@@ -11,7 +11,7 @@ import pageObjects.NewBikesPage;
 import testBase.BaseClass;
 import utilities.ExcelUtility;
 
-public class TC_001 extends BaseClass{
+public class TC_001_getNewHondaBikes extends BaseClass{
 	HomePage homePage;
 	NewBikesPage np;
 	

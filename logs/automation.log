@@ -1,16 +1,16 @@
-11:35:43.280 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Navigating to Used Cars section
-11:36:18.991 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Validating the Welcome message
-11:36:19.063 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** finished TC_002_verifyUsedCarsPage  *****
-11:36:19.350 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_002_visibilityChennai  *****
-11:36:19.351 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Verifying chennai visibility
-11:36:19.409 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** finished TC_002_visibilityChennai  *****
-11:36:19.688 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_002_printPopularModels  *****
-11:36:19.688 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Retrieving popular models & writing in Excel
-11:36:20.437 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - clicking all models 
-11:37:00.356 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** finished TC_002_printPopularModels  *****
-11:37:00.860 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_003_verifyLoginBtn  *****
-11:37:00.865 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Verfying the Login is enabled 
-11:37:00.926 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** finished TC_003_verifyLoginBtn  *****
-11:37:01.543 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_003_test_verifyLogin  *****
-11:37:03.513 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Validating the error message
-11:37:10.444 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** finished TC_003_test_verifyLogin  *****
+17:26:15.525 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Navigating to Used Cars section
+17:26:28.890 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Validating the Welcome message
+17:26:28.939 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** finished TC_002_verifyUsedCarsPage  *****
+17:26:29.234 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_002_visibilityChennai  *****
+17:26:29.235 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Verifying chennai visibility
+17:26:29.276 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** finished TC_002_visibilityChennai  *****
+17:26:29.548 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_002_printPopularModels  *****
+17:26:29.549 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Retrieving popular models & writing in Excel
+17:26:30.224 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - clicking all models 
+17:26:39.995 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** finished TC_002_printPopularModels  *****
+17:26:40.548 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_003_verifyLoginBtn  *****
+17:26:40.554 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Verfying the Login is enabled 
+17:26:40.608 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** finished TC_003_verifyLoginBtn  *****
+17:26:41.174 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** starting TC_003_test_verifyLogin  *****
+17:26:43.028 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - Validating the error message
+17:26:47.201 [main] INFO  org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test - **** finished TC_003_test_verifyLogin  *****
